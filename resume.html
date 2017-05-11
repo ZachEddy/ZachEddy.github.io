@@ -3,13 +3,30 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 		<style type="text/css" media="all">
-	    body
-	    {
-	    	padding-bottom: 2em;
-	    }
-	  </style>
-	  <style type="text/css"></style>
+			body {
+				padding-bottom: 2em;
+			}
+			th, td {
+				border: none !important;
+			}
+			th {
+				font-size: 18px;
+				padding-top: 0px !important;
+				padding-bottom: 0px !important;
+				font-weight: 500 !important;
+			}
+			tr {
+				font-size: 14px;
+			}
+			table {
+				padding-bottom: 0px;
+			}
+			.table-container{
+				width: 80%;
+			}
+		</style>
 	  <title>Resume - Zach Eddy</title>
 	</head>
 	<body>
@@ -31,11 +48,7 @@
 			<hr>
 			<p>
 				I'm interested in web development because it comprises a wide spectrum of technical challenges, ranging from
-				textbook Computer Science problems to design and user experience. Further, it affords an opportunity to gain hands-on
-				experience with a variety of technologies at all levels of the stack (applications, databases, browsers, networks, etc).
-			<p>
-				The PDF version of my resume is available <a href="resume.pdf">here</a>.</i>
-			</p>
+				textbook Computer Science problems to design and user experience.
 			<!-- EDUCATION -->
 			<hr>
 			<h3>Education</h3>
@@ -69,7 +82,10 @@
 					<b>President, Upsilon Pi Epsilon Honor Society</b>
 					<ul>
 						<li>
-							Offered to a small group of Computer Science students each year by department chair.
+							Offered to Computer Science students that excel academically.
+						</li>
+						<li>
+							Organized projects that ranged anywhere from Arduino hacking to application development.
 						</li>
 					</ul>
 				</li>
@@ -78,10 +94,7 @@
 					<b>Edward G. Goman Memorial Scholarship</b>
 					<ul>
 						<li>
-							Computer Science departmental scholarship awarded to four students each year.
-						</li>
-						<li>
-							Faculty-chosen recipients demonstrate an eagerness to learn and academic excellence.
+							Computer Science departmental scholarship awarded to a small group of students.
 						</li>
 					</ul>
 				</li>
@@ -91,7 +104,7 @@
 			<h3>Work Experience</h3>
 			<!-- MBC -->
 			<h4>Bartender - Missoula Brewing Company</h4>
-			<h5>Summer 2016 - Fall 2016</h5>
+			<h5>Summer 2016 - Winter 2016</h5>
 			<ul>
 				<li>
 					Provided friendly and professional service.
@@ -129,9 +142,6 @@
 				<li>
 					Observed high-stress procedures including open heart surgery, cardiopulmonary resuscitation, and emergency medicine.
 				</li>
-				<li>
-					Assisted physicians and nurses in the cardiac catheterization lab, operating room, and emergency room.
-				</li>
 			</ul>
 			<!-- PROGRAMMING -->
 			<hr>
@@ -157,7 +167,7 @@
 			<h4>Neat Projects</h4>
 			<ul>
 				<li>
-					Working on a machine learning program that automatically labels GitHub issues and pull requests.
+					Made a machine learning program that automatically labels GitHub issues and pull requests.
 					<ul>
 						<li>
 							Demo classifier available <a href="http://issueclassifier.herokuapp.com">here</a> for the Ruby on Rails repository.
@@ -165,15 +175,49 @@
 					</ul>
 				</li>
 				<li>
-					Helped build a Rails application to give virtual tours of the University of Puget Sound.
+					Built a Ruby on Rails application to give virtual tours of the University of Puget Sound.
 				</li>
 				<li>
-					Wrote a Django application on a Raspberry Pi to locally control electronics in my house via phone, laptop, etc.
-				</li>
-				<li>
-					Programmed a ray tracer to render simple three-dimensional scenes. I also added reflection, refraction, shadows, and textures.
+					Built a Django application on a Raspberry Pi to locally control electronics in my house via phone and laptop.
 				</li>
 			</ul>
+			<hr>
+			<h3>Skills</h3>
+			<div class="table-container">
+				<table class="table">
+  				<tr>
+    				<th>Experienced</th>
+    				<th>Intermediate</th>
+						<th>Novice</th>
+  				</tr>
+  				<tr>
+    				<td>
+							<ul>
+								<li>Python</li>
+								<li>Java</li>
+								<li>Git</li>
+							</ul>
+						</td>
+    				<td>
+							<ul>
+								<li>JavaScript</li>
+								<li>Ruby on Rails</li>
+								<li>CSS</li>
+								<li>jQuery</li>
+								<li>Machine Learning</li>
+								<li>SQL</li>
+							</ul>
+						</td>
+						<td>
+							<ul>
+								<li>Django</li>
+								<li>Scikit-learn</li>
+								<li>Haskell</li>
+							</ul>
+						</td>
+  				</tr>
+				</table>
+			</div>
 		</div>
 	</body>
 </html>
