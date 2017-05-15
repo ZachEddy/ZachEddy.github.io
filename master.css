@@ -1,0 +1,11 @@
+img {
+  width: 100%;
+}
+
+header {
+  background-image: url("cool.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center -220px;
+  height: 40%;
+}
